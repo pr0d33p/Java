@@ -10,7 +10,7 @@ public class addition {
 		int num1, num2, result; // Variable decleration
 		System.out.print("Enter the First Number: ");
 		num1 = reader.nextInt();
-		num2 = 2;
+		num2 = reader.nextInt();
 		result = num1+num2;
 		System.out.println("The sum of two number is: " + result);
 
